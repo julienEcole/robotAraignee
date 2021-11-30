@@ -1,6 +1,8 @@
 #ifndef ARRAIGNEE_H
 #define ARRAIGNEE_H
 
+#include <QtSerialPort/QSerialPort>
+
 
 class arraignee
 {

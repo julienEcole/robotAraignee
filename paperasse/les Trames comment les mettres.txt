@@ -1,0 +1,8 @@
+pour les cervo moteur :
+https://emanual.robotis.com/docs/en/dxl/protocol2/
+4Bit header
+1Bit ID
+2Bit length
+1Bit Instruction
+3Bit parametre pour instruction
+2Bit CRC
