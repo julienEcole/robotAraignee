@@ -6,3 +6,20 @@ https://emanual.robotis.com/docs/en/dxl/protocol2/
 1Bit Instruction
 3Bit parametre pour instruction
 2Bit CRC
+
+
+Les trames seront a faire en fonction du code de l'araignée
+
+Le mlouvement de chaque servo moteur varie de 0 a 1023; (je ne sais pas si 0 est tourné vers le 
+
+0x02 debut de trame
+0x04
+
+id robot arraigné :
+	|03|
+	|02|
+	|01|
+09|08|07|XX|10|11|12
+	|04|
+	|05|
+	|06|
