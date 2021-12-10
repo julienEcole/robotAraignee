@@ -62,19 +62,19 @@ void SeLever(){
   word SyncPage1[36]=
     { 
     1,512,100,
-    4,512,100,  // 3 Dynamixels are move to position 0
-    7,512,100,  // with velocity 100
+    4,512,100,
+    7,512,100,
     10,512,100,
     2,400,100,
-    5,400,100,  // 3 Dynamixels are move to position 0
-    8,400,100,  // with velocity 100
+    5,400,100,
+    8,400,100,
     11,400,100,
     3,100,100,
-    6,100,100,  // 3 Dynamixels are move to position 0
-    9,100,100,  // with velocity 100
+    6,100,100,
+    9,100,100,
     12,100,100};
-    Dxl.syncWrite(30,2,SyncPage1,36);
-    delay(500);
+    Dxl.syncWrite(30,2,SyncPage1,36); //set every servomotor to the good position 
+    delay(500);  //to let the time for teh servomotor to change place
   }
   
   void SeCoucher(){
