@@ -3,9 +3,6 @@
 #include <QApplication>
 #include <QLocale>
 #include <QTranslator>
-#include <QDebug>
-#include <QtSerialPort/QSerialPort>
-#include <QtSerialPort/QSerialPortInfo> //ces 3 dernières bibliotèque seront a mettre dans arraigne.h
 
 int main(int argc, char *argv[])
 {
@@ -22,12 +19,5 @@ int main(int argc, char *argv[])
     }
     MainWindow w;
     w.show();
-    //-----------------------------------------------------------------------------------------------------
-    //ne rien écrire en dehors de ces limites
-    //TODO mettre test pour liaison série
-    //ne rien ecrire après cette limite
-    //-----------------------------------------------------------------------------------------------------
     return a.exec();
-
-
 }

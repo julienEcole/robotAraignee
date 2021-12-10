@@ -15,6 +15,23 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+private slots:
+    void on_horizontalSlider_sliderMoved(int position);
+
+    void on_commandLinkButton_clicked();
+
+    void on_commandLinkButton_3_clicked();
+
+    void on_commandLinkButton_4_clicked();
+
+    void on_commandLinkButton_5_clicked();
+
+    void on_commandLinkButton_6_clicked();
+
+    void on_commandLinkButton_7_clicked();
+
+    void on_pushButton_4_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
